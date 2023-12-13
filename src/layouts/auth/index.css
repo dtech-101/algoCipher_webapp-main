@@ -1,0 +1,115 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(to bottom, #1e1e1e, #2b2b2b 50%, #1e1e1e);
+}
+
+.main-wrapper .left-wrapper {
+  width: 50%;
+  background-image: linear-gradient(to bottom, #1e1e1e, #2b2b2b 50%, #1e1e1e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.login-lottie-node {
+  width: 75%;
+  height: 75%;
+  align-self: center;
+  margin-top: 100px;
+}
+
+.main-wrapper .right-wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 0;
+}
+
+.main-wrapper .right-wrapper .intro {
+  display: none;
+}
+
+.main-wrapper .right-wrapper .right-inner-wrapper {
+  width: 100%;
+}
+
+.main-wrapper .right-wrapper .main-header p {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.main-wrapper .right-wrapper .main-header span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #a0b392;
+}
+
+.main-wrapper .right-wrapper .main-header {
+  margin-bottom: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-wrapper .right-wrapper .main-header img {
+  display: none;
+}
+
+.main-wrapper .right-wrapper .right-main-wrap {
+  max-width: 30rem;
+  width: 100%;
+}
+
+.image-desktop-small {
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  display: block;
+}
+
+.main-header-text {
+  color: #ffffff !important;
+}
+
+.main-header-desc {
+  color: lightgray !important;
+}
+
+.image-mobile {
+  height: 80px;
+  width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-wrapper .left-wrapper {
+    display: none;
+  }
+
+  .main-wrapper .right-wrapper {
+    width: 100%;
+    padding: 2.625rem 2rem;
+  }
+
+  .main-wrapper .right-wrapper .main-header img {
+    display: block;
+  }
+
+  .image-desktop-small {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+.icon {
+    color: rgb(128, 255, 68) ;
+    font-size: 0rem;
+}
+
+.icon:hover {
+    color: #fff;
+}
+
+.icon-footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+.icon-footer :hover {
+    color: rgb(128, 255, 68);
+}

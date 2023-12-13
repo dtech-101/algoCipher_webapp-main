@@ -1,0 +1,20 @@
+.center {
+  margin: auto;
+  padding: 10px;
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-content: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.page-heading {
+  font-size: 2rem;
+  align-self: center;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+}

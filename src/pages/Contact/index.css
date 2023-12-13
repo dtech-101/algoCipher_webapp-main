@@ -1,0 +1,85 @@
+.contact-title {
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  margin: 0px;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.contact-title span {
+  text-align: justify;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.contact-body {
+  color: #fff;
+  align-self: center;
+  font-style: Medium;
+  text-align: center;
+  font-weight: 500;
+  line-height: 120%;
+  font-stretch: normal;
+  letter-spacing: 0.1rem;
+  margin-top: 3rem !important;
+}
+
+.contact-end {
+  margin: 0px;
+  margin-top: 3rem;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: white;
+}
+
+.contact-end h3 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+
+.err-msg {
+  color: #cd5c5c !important;
+}
+
+.submit-button {
+  background-color: var(--ButtonsSurfacePrimary) !important;
+  display: flex;
+  width: 100%;
+  border-radius: 4px;
+  padding: 16px !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--ButtonsTextPrimary) !important;
+
+  & p {
+    color: var(--ButtonsTextPrimary);
+    font-family: "Jost";
+  }
+
+  &:hover {
+    background-color: var(--ButtonsSurfacePrimaryHover) !important;
+  }
+  
+}
+#space{
+  padding-top: 70px;
+}
+@media (max-width: 768px) {
+  #space{
+    padding-top: 10px;
+  }
+}

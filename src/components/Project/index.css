@@ -1,0 +1,99 @@
+.red {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .FormContainer::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+  }
+  
+  /* Thumb */
+  .FormContainer::-webkit-scrollbar-thumb {
+    background: none; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners */
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .hide-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .MuiInputLabel-root {
+    color: #596780 !important;
+    font-size: 0.75rem !important;
+    margin-bottom: 5px !important;
+    margin-left: 5px !important;
+    font-weight: bold !important;
+  }
+  
+  .input-err {
+    color: #ffcccb !important;
+    margin-top: 4px !important;
+    margin-left: 5px !important;
+  }
+  
+  .divider {
+    height: 1px;
+    width: 95%;
+    border-color: #2e7d32;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 3rem !important;
+  }
+  
+  .file-item {
+    width: 90%;
+    display: inline-block;
+    align-content: space-between;
+    background-color: transparent;
+    border-color: #2e7d32 !important;
+    border-width: 1px !important;
+    border-style: dotted !important;
+    color: #fff !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .file-item:hover {
+    color: #2e7d32 !important;
+  }
+  /* 
+  .MuiTooltip-tooltip {
+    background-color: transparent !important;
+  } */
+  
+  .upload-file {
+    width: fit-content;
+    text-align: center;
+    border-color: #2e7d32 !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    text-transform: none !important;
+  }
+  .upload-file:hover {
+    color: #2e7d32 !important;
+  }
+  /* .Mui-disabled .upload-file {
+    color: gray !important;
+  }
+   */
+  .submit {
+    width: 20% !important;
+    padding: 2% !important;
+    margin-top: 10px !important;
+    font-size: 1rem !important;
+  }
+  .submit:disabled {
+    background-color: #2e7d32 !important;
+  }

@@ -1,0 +1,21 @@
+.center-loading {
+  margin: auto;
+  padding: 10px;
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-content: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: linear-gradient(to bottom, #1e1e1e, #2b2b2b 50%, #1e1e1e);
+}
+
+.loading-text {
+  font-size: 1rem;
+  align-self: center;
+  font-style: normal;
+  font-weight: normal;
+  color: lightgrey;
+}

@@ -1,0 +1,10 @@
+.join-waitlist {
+  background-color: var(--ButtonsSurfacePrimary) !important;
+  padding: 12px 24px 12px 24px !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+}
+
+.join-waitlist:disabled {
+  background-color: #90998f !important;
+}

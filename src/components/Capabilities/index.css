@@ -1,0 +1,21 @@
+.capability-header {
+  color: #fff;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.capability-body {
+  color: #fff;
+  display: block;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: justify;
+}
+
+.icon {
+  fill: rgb(128, 255, 68) !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  flex-shrink: 0;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}

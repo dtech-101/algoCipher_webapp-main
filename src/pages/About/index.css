@@ -1,0 +1,35 @@
+/* #about-us {
+    padding-left: 3%;
+} */
+@media (max-width: 2560px) {
+    #player{
+        width: 450px;
+    }
+}
+@media (max-width: 768px) {
+    #abt-container {
+        flex-direction: row !important;
+    }
+    #abt-container img {
+        margin-bottom: 30px;
+    }
+    #abt-alc {
+        width: 15%;
+    }
+    #player{
+        width: 320px;
+    }
+    .AboutUsText{
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    #abt-container {
+        flex-direction: column !important;
+    }
+    #abt-container img {
+        justify-content: center;
+        margin-left: 10%;
+    }
+}
