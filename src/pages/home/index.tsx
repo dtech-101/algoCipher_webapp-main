@@ -218,7 +218,7 @@ const Alcicon = styled.img`
     width: 2%;
   }
   @media (max-width: 768px) {
-    display: none
+    display: none;
   }
   @media (max-width: 425px) {
     display: block;
